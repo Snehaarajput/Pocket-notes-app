@@ -1,0 +1,93 @@
+.desktop_notes {
+  width: 76vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desktop_notes_title {
+  height: 12vh;
+  width: 76vw;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 5vh;
+}
+
+.desktop_notes_title_color {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  margin: 1vh 0 0 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3.3vh;
+  font-weight: 600;
+}
+
+.desktop_notes_title_text {
+  margin-left: 4vh;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.desktop_notes_content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 60vh;
+  max-height: 61vh;
+  width: 76vw;
+  background-color: #f7ecdc;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  font-size: 1rem;
+  line-height: 2rem;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari and Opera */
+}
+
+.desktop_notes_content_title {
+  height: 20vh;
+  width: 76vw;
+}
+
+.desktop_notes_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28vh;
+  width: 76vw;
+  background-color: #e8e8e8;
+  position: fixed;
+  bottom: 0;
+  
+}
+
+.desktop_notes_input>textarea {
+  border: none;
+  outline: none;
+  border-radius: 1vh;
+  font-size: large;
+  padding: 1vh;
+  height: 21vh;
+  width: 70vw;
+  resize: none;
+}
+
+.desktop_notes_input img {
+  position: absolute;
+  bottom: 5vh;
+  right: 7vh;
+  width: 30px;
+  height: 30px;
+}
