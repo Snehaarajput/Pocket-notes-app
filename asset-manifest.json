@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pocket-notes-app/static/css/main.ca776d46.css",
-    "main.js": "/pocket-notes-app/static/js/main.b6e3d8e1.js",
+    "main.js": "/pocket-notes-app/static/js/main.8a276f04.js",
     "static/media/notes.jpg": "/pocket-notes-app/static/media/notes.50346fd7c018039cfbb1.jpg",
     "static/media/home.png": "/pocket-notes-app/static/media/home.051c5dd6cf08bd17366f.png",
     "index.html": "/pocket-notes-app/index.html",
     "main.ca776d46.css.map": "/pocket-notes-app/static/css/main.ca776d46.css.map",
-    "main.b6e3d8e1.js.map": "/pocket-notes-app/static/js/main.b6e3d8e1.js.map"
+    "main.8a276f04.js.map": "/pocket-notes-app/static/js/main.8a276f04.js.map"
   },
   "entrypoints": [
     "static/css/main.ca776d46.css",
-    "static/js/main.b6e3d8e1.js"
+    "static/js/main.8a276f04.js"
   ]
 }
